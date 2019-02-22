@@ -1,0 +1,10 @@
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodA.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodB.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodC.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodD.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodE.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodG.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodH.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodI.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodJ.HIST.root
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodL.HIST.root

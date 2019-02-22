@@ -1,0 +1,10 @@
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361021.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ1W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361022.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ2W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361023.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ3W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361024.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ4W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361025.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ5W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361026.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ6W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361027.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ7W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361028.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ8W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361030.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ10W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root
+/data/olariu/NCB/data/190211/user.olariu.mc16_13TeV.361031.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ11W.AOD.190214.1848_MisIdProb/NtupleWriter.merge.root

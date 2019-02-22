@@ -1,0 +1,4 @@
+data11_7TeV:data11_7TeV.00189288.physics_JetTauEtmiss.merge.NTUP_COMMON.f404_m980_p1610
+data11_7TeV:data11_7TeV.00189481.physics_JetTauEtmiss.merge.NTUP_COMMON.f404_m985_p1610
+data11_7TeV:data11_7TeV.00189602.physics_JetTauEtmiss.merge.NTUP_COMMON.f405_m985_p1610
+data11_7TeV:data11_7TeV.00189610.physics_JetTauEtmiss.merge.NTUP_COMMON.f405_m985_p1610

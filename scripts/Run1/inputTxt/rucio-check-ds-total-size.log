@@ -1,0 +1,8 @@
+                                                       #runs   Total     Total
+                                                               size      files
+--------------------------------------------------------------------------------
+data11_7TeV  physics_Background   NTUP_BKGD   GRL runs         376 GB
+data12_8TeV  physics_Background   NTUP_BKGD   GRL runs         805 GB    ~8400
+
+data11_7TeV  physics_JetTauEtMiss NTUP_COMMON GRL runs    22    10 TB
+data12_8TeV  physics_JetTauEtMiss NTUP_COMMON GRL runs   265   225 TB

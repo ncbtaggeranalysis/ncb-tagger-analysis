@@ -1,0 +1,38 @@
+
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-all/data11_7TeV.merge.HIST.root
+h_ntagged_bbMoore
+../efficiencyVsRunNumber/HIST/data11_7TeV.efficiencyVsRunNumber.root
+Total events in the NTUP sample: 31144984
+Events in the selected sample:       5558
+Segment              4542           81.72%            1.63%            2.03%
+SegmentEarly         1797           32.33%            0.88%            7.06%
+SegmentACNoTime       922           16.59%            0.59%           15.74%
+SegmentAC             804           14.47%            0.55%           18.53%
+Matched              3864           69.52%            1.46%            4.17%
+NoTimeLoose          3171           57.05%            1.27%            9.54%
+NoTimeMedium         2276           40.95%            1.02%           12.54%
+NoTimeTight          1403           25.24%            0.75%           15.36%
+OneSidedLoose        2995           53.89%            1.22%           10.51%
+OneSidedMedium       2227           40.07%            1.00%           12.78%
+OneSidedTight        1373           24.70%            0.74%           15.27%
+TwoSidedNoTime        952           17.13%            0.60%           15.97%
+TwoSided              883           15.89%            0.58%           17.69%
+
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-all/data11_7TeV.merge.HIST.root
+h_ntagged_bb
+../efficiencyVsRunNumber/HIST/data11_7TeV.efficiencyVsRunNumber.root
+Total events in the NTUP sample: 31144984
+Events in the selected sample:       5558
+Segment              5226           94.03%            1.81%            1.35%
+SegmentEarly         3365           60.54%            1.32%            4.16%
+SegmentACNoTime      2323           41.80%            1.03%            7.77%
+SegmentAC            2135           38.41%            0.98%           10.60%
+Matched              4818           86.69%            1.71%            3.01%
+NoTimeLoose          3943           70.94%            1.48%            8.35%
+NoTimeMedium         2777           49.96%            1.16%           13.10%
+NoTimeTight          1686           30.33%            0.84%           16.41%
+OneSidedLoose        3751           67.49%            1.43%            8.89%
+OneSidedMedium       2747           49.42%            1.15%           12.88%
+OneSidedTight        1671           30.06%            0.84%           16.43%
+TwoSidedNoTime       2516           45.27%            1.09%            8.35%
+TwoSided             2342           42.14%            1.04%           11.56%

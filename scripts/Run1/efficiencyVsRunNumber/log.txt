@@ -1,0 +1,644 @@
+h_ntagged_bbMoore
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodD.HIST.root
+Total events without event selection:    2363678
+Events in the selected sample:              1722
+Segment                     1389           80.7%
+SegmentEarly                 594           34.5%
+SegmentACNoTime              304           17.7%
+SegmentAC                    283           16.4%
+Matched                     1243           72.2%
+NoTimeLoose                 1103           64.1%
+NoTimeMedium                 830           48.2%
+NoTimeTight                  514           29.8%
+OneSidedLoose               1064           61.8%
+OneSidedMedium               820           47.6%
+OneSidedTight                507           29.4%
+TwoSidedNoTime               321           18.6%
+TwoSided                     309           17.9%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodE.HIST.root
+Total events without event selection:     546512
+Events in the selected sample:               260
+Segment                      207           79.6%
+SegmentEarly                  72           27.7%
+SegmentACNoTime               45           17.3%
+SegmentAC                     39           15.0%
+Matched                      180           69.2%
+NoTimeLoose                  155           59.6%
+NoTimeMedium                 119           45.8%
+NoTimeTight                   67           25.8%
+OneSidedLoose                148           56.9%
+OneSidedMedium               115           44.2%
+OneSidedTight                 67           25.8%
+TwoSidedNoTime                43           16.5%
+TwoSided                      38           14.6%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodF.HIST.root
+Total events without event selection:    1016721
+Events in the selected sample:               398
+Segment                      324           81.4%
+SegmentEarly                 132           33.2%
+SegmentACNoTime               66           16.6%
+SegmentAC                     56           14.1%
+Matched                      286           71.9%
+NoTimeLoose                  237           59.5%
+NoTimeMedium                 165           41.5%
+NoTimeTight                  115           28.9%
+OneSidedLoose                215           54.0%
+OneSidedMedium               158           39.7%
+OneSidedTight                109           27.4%
+TwoSidedNoTime                70           17.6%
+TwoSided                      63           15.8%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodG.HIST.root
+Total events without event selection:    2929577
+Events in the selected sample:               697
+Segment                      574           82.4%
+SegmentEarly                 230           33.0%
+SegmentACNoTime              140           20.1%
+SegmentAC                    120           17.2%
+Matched                      497           71.3%
+NoTimeLoose                  413           59.3%
+NoTimeMedium                 295           42.3%
+NoTimeTight                  182           26.1%
+OneSidedLoose                393           56.4%
+OneSidedMedium               289           41.5%
+OneSidedTight                177           25.4%
+TwoSidedNoTime               145           20.8%
+TwoSided                     135           19.4%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodH.HIST.root
+Total events without event selection:    2125551
+Events in the selected sample:               309
+Segment                      257           83.2%
+SegmentEarly                  88           28.5%
+SegmentACNoTime               39           12.6%
+SegmentAC                     31           10.0%
+Matched                      216           69.9%
+NoTimeLoose                  172           55.7%
+NoTimeMedium                 109           35.3%
+NoTimeTight                   66           21.4%
+OneSidedLoose                158           51.1%
+OneSidedMedium               107           34.6%
+OneSidedTight                 65           21.0%
+TwoSidedNoTime                39           12.6%
+TwoSided                      34           11.0%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodI.HIST.root
+Total events without event selection:    1090658
+Events in the selected sample:               212
+Segment                      181           85.4%
+SegmentEarly                  73           34.4%
+SegmentACNoTime               40           18.9%
+SegmentAC                     35           16.5%
+Matched                      150           70.8%
+NoTimeLoose                  113           53.3%
+NoTimeMedium                  84           39.6%
+NoTimeTight                   43           20.3%
+OneSidedLoose                107           50.5%
+OneSidedMedium                81           38.2%
+OneSidedTight                 43           20.3%
+TwoSidedNoTime                43           20.3%
+TwoSided                      39           18.4%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodJ.HIST.root
+Total events without event selection:     892679
+Events in the selected sample:               148
+Segment                      120           81.1%
+SegmentEarly                  47           31.8%
+SegmentACNoTime               27           18.2%
+SegmentAC                     23           15.5%
+Matched                       97           65.5%
+NoTimeLoose                   72           48.6%
+NoTimeMedium                  54           36.5%
+NoTimeTight                   29           19.6%
+OneSidedLoose                 67           45.3%
+OneSidedMedium                52           35.1%
+OneSidedTight                 28           18.9%
+TwoSidedNoTime                27           18.2%
+TwoSided                      26           17.6%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodK.HIST.root
+Total events without event selection:    2792514
+Events in the selected sample:               475
+Segment                      383           80.6%
+SegmentEarly                 141           29.7%
+SegmentACNoTime               57           12.0%
+SegmentAC                     46            9.7%
+Matched                      306           64.4%
+NoTimeLoose                  232           48.8%
+NoTimeMedium                 168           35.4%
+NoTimeTight                  108           22.7%
+OneSidedLoose                216           45.5%
+OneSidedMedium               166           34.9%
+OneSidedTight                107           22.5%
+TwoSidedNoTime                63           13.3%
+TwoSided                      58           12.2%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodL.HIST.root
+Total events without event selection:   10553152
+Events in the selected sample:               936
+Segment                      770           82.3%
+SegmentEarly                 293           31.3%
+SegmentACNoTime              131           14.0%
+SegmentAC                    108           11.5%
+Matched                      630           67.3%
+NoTimeLoose                  477           51.0%
+NoTimeMedium                 320           34.2%
+NoTimeTight                  200           21.4%
+OneSidedLoose                444           47.4%
+OneSidedMedium               312           33.3%
+OneSidedTight                194           20.7%
+TwoSidedNoTime               130           13.9%
+TwoSided                     116           12.4%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodM.HIST.root
+Total events without event selection:    6831343
+Events in the selected sample:               401
+Segment                      337           84.0%
+SegmentEarly                 127           31.7%
+SegmentACNoTime               73           18.2%
+SegmentAC                     63           15.7%
+Matched                      259           64.6%
+NoTimeLoose                  197           49.1%
+NoTimeMedium                 132           32.9%
+NoTimeTight                   79           19.7%
+OneSidedLoose                183           45.6%
+OneSidedMedium               127           31.7%
+OneSidedTight                 76           19.0%
+TwoSidedNoTime                71           17.7%
+TwoSided                      65           16.2%
+h_ntagged_bb
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodD.HIST.root
+Total events without event selection:    2363678
+Events in the selected sample:              1722
+Segment                     1629           94.6%
+SegmentEarly                1090           63.3%
+SegmentACNoTime              739           42.9%
+SegmentAC                    715           41.5%
+Matched                     1528           88.7%
+NoTimeLoose                 1351           78.5%
+NoTimeMedium                1008           58.5%
+NoTimeTight                  625           36.3%
+OneSidedLoose               1309           76.0%
+OneSidedMedium              1005           58.4%
+OneSidedTight                623           36.2%
+TwoSidedNoTime               805           46.7%
+TwoSided                     787           45.7%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodE.HIST.root
+Total events without event selection:     546512
+Events in the selected sample:               260
+Segment                      248           95.4%
+SegmentEarly                 162           62.3%
+SegmentACNoTime              114           43.8%
+SegmentAC                    108           41.5%
+Matched                      238           91.5%
+NoTimeLoose                  202           77.7%
+NoTimeMedium                 155           59.6%
+NoTimeTight                   87           33.5%
+OneSidedLoose                189           72.7%
+OneSidedMedium               148           56.9%
+OneSidedTight                 86           33.1%
+TwoSidedNoTime               129           49.6%
+TwoSided                     123           47.3%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodF.HIST.root
+Total events without event selection:    1016721
+Events in the selected sample:               398
+Segment                      376           94.5%
+SegmentEarly                 246           61.8%
+SegmentACNoTime              186           46.7%
+SegmentAC                    170           42.7%
+Matched                      348           87.4%
+NoTimeLoose                  294           73.9%
+NoTimeMedium                 206           51.8%
+NoTimeTight                  139           34.9%
+OneSidedLoose                275           69.1%
+OneSidedMedium               204           51.3%
+OneSidedTight                137           34.4%
+TwoSidedNoTime               205           51.5%
+TwoSided                     188           47.2%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodG.HIST.root
+Total events without event selection:    2929577
+Events in the selected sample:               697
+Segment                      649           93.1%
+SegmentEarly                 422           60.5%
+SegmentACNoTime              311           44.6%
+SegmentAC                    287           41.2%
+Matched                      604           86.7%
+NoTimeLoose                  505           72.5%
+NoTimeMedium                 349           50.1%
+NoTimeTight                  212           30.4%
+OneSidedLoose                478           68.6%
+OneSidedMedium               347           49.8%
+OneSidedTight                210           30.1%
+TwoSidedNoTime               332           47.6%
+TwoSided                     316           45.3%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodH.HIST.root
+Total events without event selection:    2125551
+Events in the selected sample:               309
+Segment                      282           91.3%
+SegmentEarly                 175           56.6%
+SegmentACNoTime              121           39.2%
+SegmentAC                    104           33.7%
+Matched                      256           82.8%
+NoTimeLoose                  207           67.0%
+NoTimeMedium                 134           43.4%
+NoTimeTight                   79           25.6%
+OneSidedLoose                192           62.1%
+OneSidedMedium               132           42.7%
+OneSidedTight                 77           24.9%
+TwoSidedNoTime               125           40.5%
+TwoSided                     109           35.3%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodI.HIST.root
+Total events without event selection:    1090658
+Events in the selected sample:               212
+Segment                      203           95.8%
+SegmentEarly                 131           61.8%
+SegmentACNoTime               77           36.3%
+SegmentAC                     68           32.1%
+Matched                      184           86.8%
+NoTimeLoose                  137           64.6%
+NoTimeMedium                  97           45.8%
+NoTimeTight                   48           22.6%
+OneSidedLoose                129           60.8%
+OneSidedMedium                95           44.8%
+OneSidedTight                 48           22.6%
+TwoSidedNoTime                88           41.5%
+TwoSided                      78           36.8%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodJ.HIST.root
+Total events without event selection:     892679
+Events in the selected sample:               148
+Segment                      137           92.6%
+SegmentEarly                  85           57.4%
+SegmentACNoTime               64           43.2%
+SegmentAC                     57           38.5%
+Matched                      124           83.8%
+NoTimeLoose                   96           64.9%
+NoTimeMedium                  70           47.3%
+NoTimeTight                   37           25.0%
+OneSidedLoose                 90           60.8%
+OneSidedMedium                70           47.3%
+OneSidedTight                 37           25.0%
+TwoSidedNoTime                66           44.6%
+TwoSided                      57           38.5%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodK.HIST.root
+Total events without event selection:    2792514
+Events in the selected sample:               475
+Segment                      447           94.1%
+SegmentEarly                 267           56.2%
+SegmentACNoTime              176           37.1%
+SegmentAC                    151           31.8%
+Matched                      395           83.2%
+NoTimeLoose                  298           62.7%
+NoTimeMedium                 204           42.9%
+NoTimeTight                  125           26.3%
+OneSidedLoose                277           58.3%
+OneSidedMedium               202           42.5%
+OneSidedTight                124           26.1%
+TwoSidedNoTime               190           40.0%
+TwoSided                     167           35.2%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodL.HIST.root
+Total events without event selection:   10553152
+Events in the selected sample:               936
+Segment                      880           94.0%
+SegmentEarly                 557           59.5%
+SegmentACNoTime              371           39.6%
+SegmentAC                    329           35.1%
+Matched                      803           85.8%
+NoTimeLoose                  595           63.6%
+NoTimeMedium                 386           41.2%
+NoTimeTight                  236           25.2%
+OneSidedLoose                568           60.7%
+OneSidedMedium               381           40.7%
+OneSidedTight                232           24.8%
+TwoSidedNoTime               405           43.3%
+TwoSided                     364           38.9%
+../efficiency/HIST/user.olariu.data11_7TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data11_7TeV.periodM.HIST.root
+Total events without event selection:    6831343
+Events in the selected sample:               401
+Segment                      375           93.5%
+SegmentEarly                 230           57.4%
+SegmentACNoTime              164           40.9%
+SegmentAC                    146           36.4%
+Matched                      338           84.3%
+NoTimeLoose                  258           64.3%
+NoTimeMedium                 168           41.9%
+NoTimeTight                   98           24.4%
+OneSidedLoose                244           60.8%
+OneSidedMedium               163           40.6%
+OneSidedTight                 97           24.2%
+TwoSidedNoTime               171           42.6%
+TwoSided                     153           38.2%
+h_ntagged_bbMoore
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodA.HIST.root
+Total events without event selection:    2760540
+Events in the selected sample:                95
+Segment                       45           47.4%
+SegmentEarly                   8            8.4%
+SegmentACNoTime                2            2.1%
+SegmentAC                      2            2.1%
+Matched                       16           16.8%
+NoTimeLoose                   15           15.8%
+NoTimeMedium                  14           14.7%
+NoTimeTight                    9            9.5%
+OneSidedLoose                 12           12.6%
+OneSidedMedium                11           11.6%
+OneSidedTight                  8            8.4%
+TwoSidedNoTime                 0            0.0%
+TwoSided                       0            0.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodB.HIST.root
+Total events without event selection:   19390440
+Events in the selected sample:                 1
+Segment                        1          100.0%
+SegmentEarly                   0            0.0%
+SegmentACNoTime                0            0.0%
+SegmentAC                      0            0.0%
+Matched                        0            0.0%
+NoTimeLoose                    0            0.0%
+NoTimeMedium                   0            0.0%
+NoTimeTight                    0            0.0%
+OneSidedLoose                  0            0.0%
+OneSidedMedium                 0            0.0%
+OneSidedTight                  0            0.0%
+TwoSidedNoTime                 0            0.0%
+TwoSided                       0            0.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodC.HIST.root
+Total events without event selection:    4081305
+Events in the selected sample:                 3
+Segment                        0            0.0%
+SegmentEarly                   0            0.0%
+SegmentACNoTime                0            0.0%
+SegmentAC                      0            0.0%
+Matched                        0            0.0%
+NoTimeLoose                    0            0.0%
+NoTimeMedium                   0            0.0%
+NoTimeTight                    0            0.0%
+OneSidedLoose                  0            0.0%
+OneSidedMedium                 0            0.0%
+OneSidedTight                  0            0.0%
+TwoSidedNoTime                 0            0.0%
+TwoSided                       0            0.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodD.HIST.root
+Total events without event selection:   13780603
+Events in the selected sample:                 6
+Segment                        3           50.0%
+SegmentEarly                   1           16.7%
+SegmentACNoTime                0            0.0%
+SegmentAC                      0            0.0%
+Matched                        2           33.3%
+NoTimeLoose                    2           33.3%
+NoTimeMedium                   2           33.3%
+NoTimeTight                    1           16.7%
+OneSidedLoose                  1           16.7%
+OneSidedMedium                 1           16.7%
+OneSidedTight                  1           16.7%
+TwoSidedNoTime                 0            0.0%
+TwoSided                       0            0.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodE.HIST.root
+Total events without event selection:    9692984
+Events in the selected sample:               816
+Segment                      305           37.4%
+SegmentEarly                  20            2.5%
+SegmentACNoTime                2            0.2%
+SegmentAC                      1            0.1%
+Matched                       70            8.6%
+NoTimeLoose                   54            6.6%
+NoTimeMedium                  32            3.9%
+NoTimeTight                   25            3.1%
+OneSidedLoose                 22            2.7%
+OneSidedMedium                17            2.1%
+OneSidedTight                 14            1.7%
+TwoSidedNoTime                 1            0.1%
+TwoSided                       1            0.1%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodG.HIST.root
+Total events without event selection:    5774572
+Events in the selected sample:               718
+Segment                      284           39.6%
+SegmentEarly                  54            7.5%
+SegmentACNoTime                8            1.1%
+SegmentAC                      2            0.3%
+Matched                       89           12.4%
+NoTimeLoose                   67            9.3%
+NoTimeMedium                  42            5.8%
+NoTimeTight                   28            3.9%
+OneSidedLoose                 47            6.5%
+OneSidedMedium                29            4.0%
+OneSidedTight                 21            2.9%
+TwoSidedNoTime                 3            0.4%
+TwoSided                       2            0.3%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodH.HIST.root
+Total events without event selection:    5755172
+Events in the selected sample:               647
+Segment                      260           40.2%
+SegmentEarly                  58            9.0%
+SegmentACNoTime                3            0.5%
+SegmentAC                      1            0.2%
+Matched                       75           11.6%
+NoTimeLoose                   57            8.8%
+NoTimeMedium                  38            5.9%
+NoTimeTight                   20            3.1%
+OneSidedLoose                 44            6.8%
+OneSidedMedium                33            5.1%
+OneSidedTight                 19            2.9%
+TwoSidedNoTime                 0            0.0%
+TwoSided                       0            0.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodI.HIST.root
+Total events without event selection:    4695982
+Events in the selected sample:               507
+Segment                      228           45.0%
+SegmentEarly                  51           10.1%
+SegmentACNoTime                7            1.4%
+SegmentAC                      4            0.8%
+Matched                       79           15.6%
+NoTimeLoose                   65           12.8%
+NoTimeMedium                  46            9.1%
+NoTimeTight                   26            5.1%
+OneSidedLoose                 50            9.9%
+OneSidedMedium                38            7.5%
+OneSidedTight                 21            4.1%
+TwoSidedNoTime                 3            0.6%
+TwoSided                       3            0.6%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodJ.HIST.root
+Total events without event selection:   12083975
+Events in the selected sample:              1300
+Segment                      539           41.5%
+SegmentEarly                 117            9.0%
+SegmentACNoTime               11            0.8%
+SegmentAC                      5            0.4%
+Matched                      161           12.4%
+NoTimeLoose                  125            9.6%
+NoTimeMedium                  80            6.2%
+NoTimeTight                   50            3.8%
+OneSidedLoose                 92            7.1%
+OneSidedMedium                58            4.5%
+OneSidedTight                 38            2.9%
+TwoSidedNoTime                 6            0.5%
+TwoSided                       5            0.4%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodL.HIST.root
+Total events without event selection:    6075095
+Events in the selected sample:               382
+Segment                      162           42.4%
+SegmentEarly                  34            8.9%
+SegmentACNoTime                5            1.3%
+SegmentAC                      1            0.3%
+Matched                       50           13.1%
+NoTimeLoose                   33            8.6%
+NoTimeMedium                  19            5.0%
+NoTimeTight                   14            3.7%
+OneSidedLoose                 25            6.5%
+OneSidedMedium                13            3.4%
+OneSidedTight                 10            2.6%
+TwoSidedNoTime                 2            0.5%
+TwoSided                       0            0.0%
+h_ntagged_bb
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodA.HIST.root
+Total events without event selection:    2760540
+Events in the selected sample:                95
+Segment                       59           62.1%
+SegmentEarly                  25           26.3%
+SegmentACNoTime               12           12.6%
+SegmentAC                     12           12.6%
+Matched                       48           50.5%
+NoTimeLoose                   39           41.1%
+NoTimeMedium                  21           22.1%
+NoTimeTight                   12           12.6%
+OneSidedLoose                 37           38.9%
+OneSidedMedium                21           22.1%
+OneSidedTight                 12           12.6%
+TwoSidedNoTime                13           13.7%
+TwoSided                      13           13.7%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodB.HIST.root
+Total events without event selection:   19390440
+Events in the selected sample:                 1
+Segment                        1          100.0%
+SegmentEarly                   1          100.0%
+SegmentACNoTime                1          100.0%
+SegmentAC                      0            0.0%
+Matched                        1          100.0%
+NoTimeLoose                    1          100.0%
+NoTimeMedium                   0            0.0%
+NoTimeTight                    0            0.0%
+OneSidedLoose                  1          100.0%
+OneSidedMedium                 0            0.0%
+OneSidedTight                  0            0.0%
+TwoSidedNoTime                 1          100.0%
+TwoSided                       0            0.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodC.HIST.root
+Total events without event selection:    4081305
+Events in the selected sample:                 3
+Segment                        1           33.3%
+SegmentEarly                   1           33.3%
+SegmentACNoTime                0            0.0%
+SegmentAC                      0            0.0%
+Matched                        1           33.3%
+NoTimeLoose                    1           33.3%
+NoTimeMedium                   1           33.3%
+NoTimeTight                    0            0.0%
+OneSidedLoose                  1           33.3%
+OneSidedMedium                 1           33.3%
+OneSidedTight                  0            0.0%
+TwoSidedNoTime                 0            0.0%
+TwoSided                       0            0.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodD.HIST.root
+Total events without event selection:   13780603
+Events in the selected sample:                 6
+Segment                        1           16.7%
+SegmentEarly                   0            0.0%
+SegmentACNoTime                0            0.0%
+SegmentAC                      0            0.0%
+Matched                        1           16.7%
+NoTimeLoose                    1           16.7%
+NoTimeMedium                   1           16.7%
+NoTimeTight                    1           16.7%
+OneSidedLoose                  1           16.7%
+OneSidedMedium                 1           16.7%
+OneSidedTight                  1           16.7%
+TwoSidedNoTime                 0            0.0%
+TwoSided                       0            0.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodE.HIST.root
+Total events without event selection:    9692984
+Events in the selected sample:               816
+Segment                      504           61.8%
+SegmentEarly                  26            3.2%
+SegmentACNoTime              109           13.4%
+SegmentAC                     34            4.2%
+Matched                      375           46.0%
+NoTimeLoose                  229           28.1%
+NoTimeMedium                 101           12.4%
+NoTimeTight                   51            6.2%
+OneSidedLoose                 93           11.4%
+OneSidedMedium                49            6.0%
+OneSidedTight                 35            4.3%
+TwoSidedNoTime               112           13.7%
+TwoSided                      38            4.7%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodG.HIST.root
+Total events without event selection:    5774572
+Events in the selected sample:               718
+Segment                      442           61.6%
+SegmentEarly                 144           20.1%
+SegmentACNoTime               98           13.6%
+SegmentAC                     71            9.9%
+Matched                      338           47.1%
+NoTimeLoose                  231           32.2%
+NoTimeMedium                 111           15.5%
+NoTimeTight                   58            8.1%
+OneSidedLoose                139           19.4%
+OneSidedMedium                74           10.3%
+OneSidedTight                 40            5.6%
+TwoSidedNoTime                98           13.6%
+TwoSided                      72           10.0%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodH.HIST.root
+Total events without event selection:    5755172
+Events in the selected sample:               647
+Segment                      391           60.4%
+SegmentEarly                 137           21.2%
+SegmentACNoTime               82           12.7%
+SegmentAC                     59            9.1%
+Matched                      304           47.0%
+NoTimeLoose                  200           30.9%
+NoTimeMedium                 109           16.8%
+NoTimeTight                   48            7.4%
+OneSidedLoose                134           20.7%
+OneSidedMedium                81           12.5%
+OneSidedTight                 35            5.4%
+TwoSidedNoTime                85           13.1%
+TwoSided                      62            9.6%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodI.HIST.root
+Total events without event selection:    4695982
+Events in the selected sample:               507
+Segment                      335           66.1%
+SegmentEarly                 117           23.1%
+SegmentACNoTime               66           13.0%
+SegmentAC                     46            9.1%
+Matched                      254           50.1%
+NoTimeLoose                  165           32.5%
+NoTimeMedium                  73           14.4%
+NoTimeTight                   38            7.5%
+OneSidedLoose                106           20.9%
+OneSidedMedium                51           10.1%
+OneSidedTight                 28            5.5%
+TwoSidedNoTime                71           14.0%
+TwoSided                      55           10.8%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodJ.HIST.root
+Total events without event selection:   12083975
+Events in the selected sample:              1300
+Segment                      835           64.2%
+SegmentEarly                 294           22.6%
+SegmentACNoTime              169           13.0%
+SegmentAC                    133           10.2%
+Matched                      640           49.2%
+NoTimeLoose                  414           31.8%
+NoTimeMedium                 209           16.1%
+NoTimeTight                  109            8.4%
+OneSidedLoose                274           21.1%
+OneSidedMedium               147           11.3%
+OneSidedTight                 86            6.6%
+TwoSidedNoTime               171           13.2%
+TwoSided                     141           10.8%
+../efficiency/HIST/user.olariu.data12_8TeV.physics_Background.NTUP_BKGD.grl.190104.1741_XYZ.HIST.root.tgz/merge-each-period/data12_8TeV.periodL.HIST.root
+Total events without event selection:    6075095
+Events in the selected sample:               382
+Segment                      241           63.1%
+SegmentEarly                  74           19.4%
+SegmentACNoTime               48           12.6%
+SegmentAC                     34            8.9%
+Matched                      182           47.6%
+NoTimeLoose                  116           30.4%
+NoTimeMedium                  63           16.5%
+NoTimeTight                   36            9.4%
+OneSidedLoose                 73           19.1%
+OneSidedMedium                40           10.5%
+OneSidedTight                 26            6.8%
+TwoSidedNoTime                50           13.1%
+TwoSided                      41           10.7%

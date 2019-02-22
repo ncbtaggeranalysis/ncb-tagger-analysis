@@ -1,0 +1,1 @@
+InputCollections="$STORAGE/$1/*"

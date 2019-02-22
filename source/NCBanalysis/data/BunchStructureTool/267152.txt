@@ -1,0 +1,6 @@
+Identifiers (BCID) for paired and unpaired bunches for run 267152:
+(Begin/end of run: Sat Jun 06 2015 14:06:15 − 18:33:41)
+LB range	    Stable
+beams	  Crossing (Paired)	  Unpaired Beam-1 	  Unpaired Beam-2
+1	−	275:   	T    	1, 101, 201, 301, 1786, 1886, 1986, 2086	601, 895, 995, 1095, 1195, 2701	501, 892, 992, 1092, 1192, 2711
+276	−	287:   	T    	−	−	−

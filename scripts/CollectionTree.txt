@@ -1,0 +1,557 @@
+root [2] CollectionTree->Print()
+******************************************************************************
+*Tree    :CollectionTree:                                                        *
+*Entries :  1795787 : Total =      2768670749 bytes  File  Size =  837492599 *
+*        :          : Tree compression factor =   3.31                       *
+******************************************************************************
+*Br    0 :RunNumber : RunNumber/I                                            *
+*Entries :  1795787 : Total  Size=    7208262 bytes  File Size  =      35752 *
+*Baskets :      234 : Basket Size=      32000 bytes  Compression= 201.48     *
+*............................................................................*
+*Br    1 :EventNumber : EventNumber/I                                        *
+*Entries :  1795787 : Total  Size=    7208846 bytes  File Size  =    5280847 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=   1.36     *
+*............................................................................*
+*Br    2 :bcid      : bcid/I                                                 *
+*Entries :  1795787 : Total  Size=    7207072 bytes  File Size  =    2156940 *
+*Baskets :      234 : Basket Size=      32000 bytes  Compression=   3.34     *
+*............................................................................*
+*Br    3 :lbn       : lbn/I                                                  *
+*Entries :  1795787 : Total  Size=    7206834 bytes  File Size  =      34943 *
+*Baskets :      234 : Basket Size=      32000 bytes  Compression= 206.10     *
+*............................................................................*
+*Br    4 :backgroundFlag : backgroundFlag/i                                  *
+*Entries :  1795787 : Total  Size=    7209563 bytes  File Size  =     945849 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=   7.62     *
+*............................................................................*
+*Br    5 :NPV       : NPV/I                                                  *
+*Entries :  1795787 : Total  Size=    7206834 bytes  File Size  =     389398 *
+*Baskets :      234 : Basket Size=      32000 bytes  Compression=  18.49     *
+*............................................................................*
+*Br    6 :averageInteractionsPerCrossing : averageInteractionsPerCrossing/F  *
+*Entries :  1795787 : Total  Size=    7213387 bytes  File Size  =      42737 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 168.67     *
+*............................................................................*
+*Br    7 :pixelError : pixelError/O                                          *
+*Entries :  1795787 : Total  Size=    1803478 bytes  File Size  =       9941 *
+*Baskets :       69 : Basket Size=      32000 bytes  Compression= 181.25     *
+*............................................................................*
+*Br    8 :sctError  : sctError/O                                             *
+*Entries :  1795787 : Total  Size=    1803332 bytes  File Size  =       9848 *
+*Baskets :       69 : Basket Size=      32000 bytes  Compression= 182.95     *
+*............................................................................*
+*Br    9 :trtError  : trtError/O                                             *
+*Entries :  1795787 : Total  Size=    1803332 bytes  File Size  =       9803 *
+*Baskets :       69 : Basket Size=      32000 bytes  Compression= 183.79     *
+*............................................................................*
+*Br   10 :larError  : larError/O                                             *
+*Entries :  1795787 : Total  Size=    1803332 bytes  File Size  =       9913 *
+*Baskets :       69 : Basket Size=      32000 bytes  Compression= 181.75     *
+*............................................................................*
+*Br   11 :tileError : tileError/O                                            *
+*Entries :  1795787 : Total  Size=    1803405 bytes  File Size  =       9872 *
+*Baskets :       69 : Basket Size=      32000 bytes  Compression= 182.51     *
+*............................................................................*
+*Br   12 :muonError : muonError/O                                            *
+*Entries :  1795787 : Total  Size=    1803405 bytes  File Size  =       9872 *
+*Baskets :       69 : Basket Size=      32000 bytes  Compression= 182.51     *
+*............................................................................*
+*Br   13 :passGRL   : passGRL/O                                              *
+*Entries :  1795787 : Total  Size=    1803259 bytes  File Size  =       9755 *
+*Baskets :       69 : Basket Size=      32000 bytes  Compression= 184.68     *
+*............................................................................*
+*Br   14 :L1_BCM_AC_CA_BGRP0 : L1_BCM_AC_CA_BGRP0/I                          *
+*Entries :  1795787 : Total  Size=    7210519 bytes  File Size  =      74962 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  96.12     *
+*............................................................................*
+*Br   15 :L1_BCM_AC_CA_UNPAIRED_ISO : L1_BCM_AC_CA_UNPAIRED_ISO/I            *
+*Entries :  1795787 : Total  Size=    7212192 bytes  File Size  =      38440 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 187.49     *
+*............................................................................*
+*Br   16 :L1_BCM_AC_UNPAIRED_ISO : L1_BCM_AC_UNPAIRED_ISO/I                  *
+*Entries :  1795787 : Total  Size=    7211475 bytes  File Size  =     490149 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  14.70     *
+*............................................................................*
+*Br   17 :L1_BCM_AC_UNPAIRED_NONISO : L1_BCM_AC_UNPAIRED_NONISO/I            *
+*Entries :  1795787 : Total  Size=    7212192 bytes  File Size  =      38440 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 187.49     *
+*............................................................................*
+*Br   18 :L1_BCM_AC_CALIB : L1_BCM_AC_CALIB/I                                *
+*Entries :  1795787 : Total  Size=    7209802 bytes  File Size  =      37336 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 192.97     *
+*............................................................................*
+*Br   19 :L1_BCM_AC_ABORTGAPNOTCALIB : L1_BCM_AC_ABORTGAPNOTCALIB/I          *
+*Entries :  1795787 : Total  Size=    7212431 bytes  File Size  =      39657 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 181.74     *
+*............................................................................*
+*Br   20 :L1_BCM_CA_UNPAIRED_ISO : L1_BCM_CA_UNPAIRED_ISO/I                  *
+*Entries :  1795787 : Total  Size=    7211475 bytes  File Size  =     485080 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  14.86     *
+*............................................................................*
+*Br   21 :L1_BCM_CA_UNPAIRED_NONISO : L1_BCM_CA_UNPAIRED_NONISO/I            *
+*Entries :  1795787 : Total  Size=    7212192 bytes  File Size  =      38440 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 187.49     *
+*............................................................................*
+*Br   22 :L1_BCM_CA_CALIB : L1_BCM_CA_CALIB/I                                *
+*Entries :  1795787 : Total  Size=    7209802 bytes  File Size  =      39352 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 183.09     *
+*............................................................................*
+*Br   23 :L1_BCM_CA_ABORTGAPNOTCALIB : L1_BCM_CA_ABORTGAPNOTCALIB/I          *
+*Entries :  1795787 : Total  Size=    7212431 bytes  File Size  =      41852 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 172.21     *
+*............................................................................*
+*Br   24 :L1_BCM_Wide_BGRP0 : L1_BCM_Wide_BGRP0/I                            *
+*Entries :  1795787 : Total  Size=    7210280 bytes  File Size  =      36557 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 197.10     *
+*............................................................................*
+*Br   25 :L1_BCM_Wide_EMPTY : L1_BCM_Wide_EMPTY/I                            *
+*Entries :  1795787 : Total  Size=    7210280 bytes  File Size  =     175697 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  41.01     *
+*............................................................................*
+*Br   26 :L1_BCM_Wide_UNPAIRED_ISO : L1_BCM_Wide_UNPAIRED_ISO/I              *
+*Entries :  1795787 : Total  Size=    7211953 bytes  File Size  =     173861 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  41.45     *
+*............................................................................*
+*Br   27 :L1_BCM_Wide_UNPAIRED_NONISO : L1_BCM_Wide_UNPAIRED_NONISO/I        *
+*Entries :  1795787 : Total  Size=    7212670 bytes  File Size  =      38911 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 185.23     *
+*............................................................................*
+*Br   28 :L1_BCM_Wide_CALIB : L1_BCM_Wide_CALIB/I                            *
+*Entries :  1795787 : Total  Size=    7210280 bytes  File Size  =      37857 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 190.33     *
+*............................................................................*
+*Br   29 :L1_BCM_Wide_ABORTGAPNOTCALIB : L1_BCM_Wide_ABORTGAPNOTCALIB/I      *
+*Entries :  1795787 : Total  Size=    7212909 bytes  File Size  =      40043 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 180.00     *
+*............................................................................*
+*Br   30 :L1_J12    : L1_J12/I                                               *
+*Entries :  1795787 : Total  Size=    7207548 bytes  File Size  =      47130 *
+*Baskets :      234 : Basket Size=      32000 bytes  Compression= 152.82     *
+*............................................................................*
+*Br   31 :L1_J12_UNPAIRED_ISO : L1_J12_UNPAIRED_ISO/I                        *
+*Entries :  1795787 : Total  Size=    7210758 bytes  File Size  =      92309 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  78.06     *
+*............................................................................*
+*Br   32 :L1_J12_UNPAIRED_NONISO : L1_J12_UNPAIRED_NONISO/I                  *
+*Entries :  1795787 : Total  Size=    7211475 bytes  File Size  =      37734 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 190.98     *
+*............................................................................*
+*Br   33 :L1_J50_UNPAIRED_ISO : L1_J50_UNPAIRED_ISO/I                        *
+*Entries :  1795787 : Total  Size=    7210758 bytes  File Size  =      42765 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 168.50     *
+*............................................................................*
+*Br   34 :L1_J50_UNPAIRED_NONISO : L1_J50_UNPAIRED_NONISO/I                  *
+*Entries :  1795787 : Total  Size=    7211475 bytes  File Size  =      37734 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 190.98     *
+*............................................................................*
+*Br   35 :L1_MBTS_1_UNPAIRED_ISO : L1_MBTS_1_UNPAIRED_ISO/I                  *
+*Entries :  1795787 : Total  Size=    7211475 bytes  File Size  =      37734 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 190.98     *
+*............................................................................*
+*Br   36 :L1_MBTS_2_UNPAIRED_ISO : L1_MBTS_2_UNPAIRED_ISO/I                  *
+*Entries :  1795787 : Total  Size=    7211475 bytes  File Size  =      37734 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 190.98     *
+*............................................................................*
+*Br   37 :L1_MBTS_4_A_UNPAIRED_ISO : L1_MBTS_4_A_UNPAIRED_ISO/I              *
+*Entries :  1795787 : Total  Size=    7211953 bytes  File Size  =      38205 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 188.64     *
+*............................................................................*
+*Br   38 :L1_MBTS_4_C_UNPAIRED_ISO : L1_MBTS_4_C_UNPAIRED_ISO/I              *
+*Entries :  1795787 : Total  Size=    7211953 bytes  File Size  =      38205 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 188.64     *
+*............................................................................*
+*Br   39 :L1_RD0_UNPAIRED_ISO : L1_RD0_UNPAIRED_ISO/I                        *
+*Entries :  1795787 : Total  Size=    7210758 bytes  File Size  =     154389 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  46.67     *
+*............................................................................*
+*Br   40 :HLT_noalg_bkg_L1RD0_UNPAIRED_ISO :                                 *
+*         | HLT_noalg_bkg_L1RD0_UNPAIRED_ISO/I                               *
+*Entries :  1795787 : Total  Size=    7213865 bytes  File Size  =      91981 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  78.37     *
+*............................................................................*
+*Br   41 :HLT_mb_sp_L1RD0_UNPAIRED_ISO : HLT_mb_sp_L1RD0_UNPAIRED_ISO/I      *
+*Entries :  1795787 : Total  Size=    7212909 bytes  File Size  =      46407 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 155.32     *
+*............................................................................*
+*Br   42 :HLT_mb_sp_ncb_L1RD0_UNPAIRED_ISO :                                 *
+*         | HLT_mb_sp_ncb_L1RD0_UNPAIRED_ISO/I                               *
+*Entries :  1795787 : Total  Size=    7213865 bytes  File Size  =     111125 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  64.87     *
+*............................................................................*
+*Br   43 :StableBeams : StableBeams/O                                        *
+*Entries :  1795787 : Total  Size=    1803551 bytes  File Size  =      10029 *
+*Baskets :       69 : Basket Size=      32000 bytes  Compression= 179.66     *
+*............................................................................*
+*Br   44 :TopoClusters.n : cl_n/i                                            *
+*Entries :  1795787 : Total  Size=    7209533 bytes  File Size  =    1887780 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=   3.82     *
+*............................................................................*
+*Br   45 :TopoClusters.pt : vector<float>                                    *
+*Entries :  1795787 : Total  Size=   62114696 bytes  File Size  =   41494877 *
+*Baskets :     2177 : Basket Size=      32000 bytes  Compression=   1.50     *
+*............................................................................*
+*Br   46 :TopoClusters.e : vector<float>                                     *
+*Entries :  1795787 : Total  Size=   62112515 bytes  File Size  =   41871713 *
+*Baskets :     2177 : Basket Size=      32000 bytes  Compression=   1.48     *
+*............................................................................*
+*Br   47 :TopoClusters.emscale_e : vector<float>                             *
+*Entries :  1795787 : Total  Size=   62130090 bytes  File Size  =   40529935 *
+*Baskets :     2178 : Basket Size=      32000 bytes  Compression=   1.53     *
+*............................................................................*
+*Br   48 :TopoClusters.eta : vector<float>                                   *
+*Entries :  1795787 : Total  Size=   62116877 bytes  File Size  =   41964182 *
+*Baskets :     2177 : Basket Size=      32000 bytes  Compression=   1.48     *
+*............................................................................*
+*Br   49 :TopoClusters.phi : vector<float>                                   *
+*Entries :  1795787 : Total  Size=   62116877 bytes  File Size  =   42729470 *
+*Baskets :     2177 : Basket Size=      32000 bytes  Compression=   1.45     *
+*............................................................................*
+*Br   50 :TopoClusters.rPerp : vector<float>                                 *
+*Entries :  1795787 : Total  Size=   62121239 bytes  File Size  =   41329649 *
+*Baskets :     2177 : Basket Size=      32000 bytes  Compression=   1.50     *
+*............................................................................*
+*Br   51 :TopoClusters.z : vector<float>                                     *
+*Entries :  1795787 : Total  Size=   62112515 bytes  File Size  =   40647180 *
+*Baskets :     2177 : Basket Size=      32000 bytes  Compression=   1.53     *
+*............................................................................*
+*Br   52 :TopoClusters.time : vector<float>                                  *
+*Entries :  1795787 : Total  Size=   62119058 bytes  File Size  =   42757609 *
+*Baskets :     2177 : Basket Size=      32000 bytes  Compression=   1.45     *
+*............................................................................*
+*Br   53 :TopoClusters.fracSamplingMax : vector<float>                       *
+*Entries :  1795787 : Total  Size=   62143315 bytes  File Size  =   40344324 *
+*Baskets :     2179 : Basket Size=      32000 bytes  Compression=   1.54     *
+*............................................................................*
+*Br   54 :TopoClusters.fracSamplingMaxIndex : vector<int>                    *
+*Entries :  1795787 : Total  Size=   62154368 bytes  File Size  =   14827734 *
+*Baskets :     2180 : Basket Size=      32000 bytes  Compression=   4.19     *
+*............................................................................*
+*Br   55 :AntiKt4EMTopoJets.n : n/i                                          *
+*Entries :  1795787 : Total  Size=    7210704 bytes  File Size  =     498307 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  14.46     *
+*............................................................................*
+*Br   56 :AntiKt4EMTopoJets.pt : vector<float>                               *
+*Entries :  1795787 : Total  Size=   28109329 bytes  File Size  =    8531450 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   3.29     *
+*............................................................................*
+*Br   57 :AntiKt4EMTopoJets.eta : vector<float>                              *
+*Entries :  1795787 : Total  Size=   28110450 bytes  File Size  =    8657137 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   3.24     *
+*............................................................................*
+*Br   58 :AntiKt4EMTopoJets.phi : vector<float>                              *
+*Entries :  1795787 : Total  Size=   28110450 bytes  File Size  =    8668961 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   3.24     *
+*............................................................................*
+*Br   59 :AntiKt4EMTopoJets.time : vector<float>                             *
+*Entries :  1795787 : Total  Size=   28111571 bytes  File Size  =    8727375 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   3.22     *
+*............................................................................*
+*Br   60 :AntiKt4EMTopoJets.emf : vector<float>                              *
+*Entries :  1795787 : Total  Size=   28110450 bytes  File Size  =    8320537 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   3.38     *
+*............................................................................*
+*Br   61 :AntiKt4EMTopoJets.hecf : vector<float>                             *
+*Entries :  1795787 : Total  Size=   28111571 bytes  File Size  =    6795260 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   4.13     *
+*............................................................................*
+*Br   62 :AntiKt4EMTopoJets.hecq : vector<float>                             *
+*Entries :  1795787 : Total  Size=   28111571 bytes  File Size  =    5893655 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   4.77     *
+*............................................................................*
+*Br   63 :AntiKt4EMTopoJets.larq : vector<float>                             *
+*Entries :  1795787 : Total  Size=   28111571 bytes  File Size  =    6619803 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   4.24     *
+*............................................................................*
+*Br   64 :AntiKt4EMTopoJets.AverageLArQF : vector<float>                     *
+*Entries :  1795787 : Total  Size=   28120539 bytes  File Size  =    8441772 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   3.33     *
+*............................................................................*
+*Br   65 :AntiKt4EMTopoJets.negE : vector<float>                             *
+*Entries :  1795787 : Total  Size=   28111571 bytes  File Size  =    8383238 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   3.35     *
+*............................................................................*
+*Br   66 :AntiKt4EMTopoJets.fracSamplingMax : vector<float>                  *
+*Entries :  1795787 : Total  Size=   28123902 bytes  File Size  =    8518387 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   3.30     *
+*............................................................................*
+*Br   67 :AntiKt4EMTopoJets.fracSamplingMaxIndex : vector<int>               *
+*Entries :  1795787 : Total  Size=   28129507 bytes  File Size  =    6120299 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   4.59     *
+*............................................................................*
+*Br   68 :AntiKt4EMTopoJets.NumTrkPt1000 : vector<int>                       *
+*Entries :  1795787 : Total  Size=   28120539 bytes  File Size  =    5699794 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   4.93     *
+*............................................................................*
+*Br   69 :AntiKt4EMTopoJets.SumPtTrkPt500 : vector<float>                    *
+*Entries :  1795787 : Total  Size=   28121660 bytes  File Size  =    6411829 *
+*Baskets :     1117 : Basket Size=      32000 bytes  Compression=   4.38     *
+*............................................................................*
+*Br   70 :AntiKt4EMTopoJets.isBadLoose : vector<bool>                        *
+*Entries :  1795787 : Total  Size=   25988007 bytes  File Size  =    5434839 *
+*Baskets :     1049 : Basket Size=      32000 bytes  Compression=   4.78     *
+*............................................................................*
+*Br   71 :NCB_MuonSegments.n : NCB_MuonSegments.n/I                          *
+*Entries :  1795787 : Total  Size=    7210519 bytes  File Size  =     395207 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  18.23     *
+*............................................................................*
+*Br   72 :NCB_MuonSegments.x : vector<float>                                 *
+*Entries :  1795787 : Total  Size=   26988989 bytes  File Size  =    7201378 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.74     *
+*............................................................................*
+*Br   73 :NCB_MuonSegments.y : vector<float>                                 *
+*Entries :  1795787 : Total  Size=   26988989 bytes  File Size  =    7205648 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.74     *
+*............................................................................*
+*Br   74 :NCB_MuonSegments.z : vector<float>                                 *
+*Entries :  1795787 : Total  Size=   26988989 bytes  File Size  =    7054085 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.82     *
+*............................................................................*
+*Br   75 :NCB_MuonSegments.px : vector<float>                                *
+*Entries :  1795787 : Total  Size=   26990072 bytes  File Size  =    7243358 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.72     *
+*............................................................................*
+*Br   76 :NCB_MuonSegments.py : vector<float>                                *
+*Entries :  1795787 : Total  Size=   26990072 bytes  File Size  =    7241737 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.72     *
+*............................................................................*
+*Br   77 :NCB_MuonSegments.pz : vector<float>                                *
+*Entries :  1795787 : Total  Size=   26990072 bytes  File Size  =    7127943 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.78     *
+*............................................................................*
+*Br   78 :NCB_MuonSegments.t0 : vector<float>                                *
+*Entries :  1795787 : Total  Size=   26990072 bytes  File Size  =    7066463 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.82     *
+*............................................................................*
+*Br   79 :NCB_MuonSegments.t0error : vector<float>                           *
+*Entries :  1795787 : Total  Size=   26995487 bytes  File Size  =    7014313 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.85     *
+*............................................................................*
+*Br   80 :NCB_MuonSegments.chi2 : vector<float>                              *
+*Entries :  1795787 : Total  Size=   26992238 bytes  File Size  =    7167735 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.76     *
+*............................................................................*
+*Br   81 :NCB_MuonSegments.ndof : vector<float>                              *
+*Entries :  1795787 : Total  Size=   26992238 bytes  File Size  =    5335728 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   5.05     *
+*............................................................................*
+*Br   82 :NCB_MuonSegments.sector : vector<int>                              *
+*Entries :  1795787 : Total  Size=   26994404 bytes  File Size  =    5691542 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   4.74     *
+*............................................................................*
+*Br   83 :NCB_MuonSegments.chamberIndex : vector<int>                        *
+*Entries :  1795787 : Total  Size=   27000902 bytes  File Size  =    5193503 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   5.19     *
+*............................................................................*
+*Br   84 :NCB_MuonSegments.nPrecisionHits : vector<int>                      *
+*Entries :  1795787 : Total  Size=   27003068 bytes  File Size  =    5220235 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   5.17     *
+*............................................................................*
+*Br   85 :NCB_MuonSegments.thetaPos : vector<float>                          *
+*Entries :  1795787 : Total  Size=   26996570 bytes  File Size  =    7028425 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.84     *
+*............................................................................*
+*Br   86 :NCB_MuonSegments.thetaDir : vector<float>                          *
+*Entries :  1795787 : Total  Size=   26996570 bytes  File Size  =    7126543 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.79     *
+*............................................................................*
+*Br   87 :NCB_MuonSegments.phi : vector<float>                               *
+*Entries :  1795787 : Total  Size=   26991155 bytes  File Size  =    7202308 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   3.74     *
+*............................................................................*
+*Br   88 :MuonSegments.n : MuonSegments.n/I                                  *
+*Entries :  1795787 : Total  Size=    7209563 bytes  File Size  =     722409 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=   9.97     *
+*............................................................................*
+*Br   89 :MuonSegments.x : vector<float>                                     *
+*Entries :  1795787 : Total  Size=   32768449 bytes  File Size  =   13943397 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.35     *
+*............................................................................*
+*Br   90 :MuonSegments.y : vector<float>                                     *
+*Entries :  1795787 : Total  Size=   32768449 bytes  File Size  =   13943805 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.35     *
+*............................................................................*
+*Br   91 :MuonSegments.z : vector<float>                                     *
+*Entries :  1795787 : Total  Size=   32768449 bytes  File Size  =   13613553 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.41     *
+*............................................................................*
+*Br   92 :MuonSegments.px : vector<float>                                    *
+*Entries :  1795787 : Total  Size=   32769712 bytes  File Size  =   13974599 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.34     *
+*............................................................................*
+*Br   93 :MuonSegments.py : vector<float>                                    *
+*Entries :  1795787 : Total  Size=   32769712 bytes  File Size  =   13977024 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.34     *
+*............................................................................*
+*Br   94 :MuonSegments.pz : vector<float>                                    *
+*Entries :  1795787 : Total  Size=   32769712 bytes  File Size  =   13566807 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.41     *
+*............................................................................*
+*Br   95 :MuonSegments.t0 : vector<float>                                    *
+*Entries :  1795787 : Total  Size=   32769712 bytes  File Size  =   10197930 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   3.21     *
+*............................................................................*
+*Br   96 :MuonSegments.t0error : vector<float>                               *
+*Entries :  1795787 : Total  Size=   32776027 bytes  File Size  =    9965025 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   3.29     *
+*............................................................................*
+*Br   97 :MuonSegments.chi2 : vector<float>                                  *
+*Entries :  1795787 : Total  Size=   32772238 bytes  File Size  =   13756489 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.38     *
+*............................................................................*
+*Br   98 :MuonSegments.ndof : vector<float>                                  *
+*Entries :  1795787 : Total  Size=   32772238 bytes  File Size  =    7437918 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   4.40     *
+*............................................................................*
+*Br   99 :MuonSegments.sector : vector<int>                                  *
+*Entries :  1795787 : Total  Size=   32774764 bytes  File Size  =    7908014 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   4.14     *
+*............................................................................*
+*Br  100 :MuonSegments.chamberIndex : vector<int>                            *
+*Entries :  1795787 : Total  Size=   32782342 bytes  File Size  =    7407849 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   4.42     *
+*............................................................................*
+*Br  101 :MuonSegments.nPrecisionHits : vector<int>                          *
+*Entries :  1795787 : Total  Size=   32784868 bytes  File Size  =    7276968 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   4.50     *
+*............................................................................*
+*Br  102 :MuonSegments.thetaPos : vector<float>                              *
+*Entries :  1795787 : Total  Size=   32777290 bytes  File Size  =   13504623 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.43     *
+*............................................................................*
+*Br  103 :MuonSegments.thetaDir : vector<float>                              *
+*Entries :  1795787 : Total  Size=   32777290 bytes  File Size  =   13577235 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.41     *
+*............................................................................*
+*Br  104 :MuonSegments.phi : vector<float>                                   *
+*Entries :  1795787 : Total  Size=   32770975 bytes  File Size  =   13259879 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   2.47     *
+*............................................................................*
+*Br  105 :BeamBackgroundData.numSegment : BeamBackgroundData.numSegment/I    *
+*Entries :  1795787 : Total  Size=    7213148 bytes  File Size  =     365651 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  19.71     *
+*............................................................................*
+*Br  106 :BeamBackgroundData.numSegmentEarly :                               *
+*         | BeamBackgroundData.numSegmentEarly/I                             *
+*Entries :  1795787 : Total  Size=    7214343 bytes  File Size  =     144890 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  49.76     *
+*............................................................................*
+*Br  107 :BeamBackgroundData.numSegmentACNoTime :                            *
+*         | BeamBackgroundData.numSegmentACNoTime/I                          *
+*Entries :  1795787 : Total  Size=    7215060 bytes  File Size  =     308003 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  23.41     *
+*............................................................................*
+*Br  108 :BeamBackgroundData.numSegmentAC : BeamBackgroundData.numSegmentAC/I*
+*Entries :  1795787 : Total  Size=    7213626 bytes  File Size  =     113707 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  63.40     *
+*............................................................................*
+*Br  109 :BeamBackgroundData.numMatched : BeamBackgroundData.numMatched/I    *
+*Entries :  1795787 : Total  Size=    7213148 bytes  File Size  =      72960 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  98.79     *
+*............................................................................*
+*Br  110 :BeamBackgroundData.numNoTimeLoose :                                *
+*         | BeamBackgroundData.numNoTimeLoose/I                              *
+*Entries :  1795787 : Total  Size=    7214104 bytes  File Size  =      63173 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 114.12     *
+*............................................................................*
+*Br  111 :BeamBackgroundData.numNoTimeMedium :                               *
+*         | BeamBackgroundData.numNoTimeMedium/I                             *
+*Entries :  1795787 : Total  Size=    7214343 bytes  File Size  =      48386 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 148.99     *
+*............................................................................*
+*Br  112 :BeamBackgroundData.numNoTimeTight :                                *
+*         | BeamBackgroundData.numNoTimeTight/I                              *
+*Entries :  1795787 : Total  Size=    7214104 bytes  File Size  =      44411 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 162.32     *
+*............................................................................*
+*Br  113 :BeamBackgroundData.numOneSidedLoose :                              *
+*         | BeamBackgroundData.numOneSidedLoose/I                            *
+*Entries :  1795787 : Total  Size=    7214582 bytes  File Size  =      57795 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 124.74     *
+*............................................................................*
+*Br  114 :BeamBackgroundData.numOneSidedMedium :                             *
+*         | BeamBackgroundData.numOneSidedMedium/I                           *
+*Entries :  1795787 : Total  Size=    7214821 bytes  File Size  =      48209 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 149.55     *
+*............................................................................*
+*Br  115 :BeamBackgroundData.numOneSidedTight :                              *
+*         | BeamBackgroundData.numOneSidedTight/I                            *
+*Entries :  1795787 : Total  Size=    7214582 bytes  File Size  =      44652 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 161.46     *
+*............................................................................*
+*Br  116 :BeamBackgroundData.numTwoSidedNoTime :                             *
+*         | BeamBackgroundData.numTwoSidedNoTime/I                           *
+*Entries :  1795787 : Total  Size=    7214821 bytes  File Size  =      47056 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 153.22     *
+*............................................................................*
+*Br  117 :BeamBackgroundData.numTwoSided : BeamBackgroundData.numTwoSided/I  *
+*Entries :  1795787 : Total  Size=    7213387 bytes  File Size  =      43007 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 167.61     *
+*............................................................................*
+*Br  118 :BeamBackgroundData.resultClus : vector<int>                        *
+*Entries :  1795787 : Total  Size=  221355830 bytes  File Size  =   12029484 *
+*Baskets :     7237 : Basket Size=      32000 bytes  Compression=  18.39     *
+*............................................................................*
+*Br  119 :BeamBackgroundData.resultMuonSeg : vector<int>                     *
+*Entries :  1795787 : Total  Size=   32791183 bytes  File Size  =    6150986 *
+*Baskets :     1259 : Basket Size=      32000 bytes  Compression=   5.33     *
+*............................................................................*
+*Br  120 :BeamBackgroundData.resultNCB_MuonSeg : vector<int>                 *
+*Entries :  1795787 : Total  Size=   27008483 bytes  File Size  =    5484836 *
+*Baskets :     1079 : Basket Size=      32000 bytes  Compression=   4.92     *
+*............................................................................*
+*Br  121 :beamIntensity_B1 : beamIntensity_B1/F                              *
+*Entries :  1795787 : Total  Size=    7210041 bytes  File Size  =      38862 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 185.40     *
+*............................................................................*
+*Br  122 :beamIntensity_B2 : beamIntensity_B2/F                              *
+*Entries :  1795787 : Total  Size=    7210041 bytes  File Size  =      38875 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 185.34     *
+*............................................................................*
+*Br  123 :lb_duration : lb_duration/F                                        *
+*Entries :  1795787 : Total  Size=    7208846 bytes  File Size  =      37869 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 190.23     *
+*............................................................................*
+*Br  124 :BunchStructure.isUnpaired : BunchStructure.isUnpaired/I            *
+*Entries :  1795787 : Total  Size=    7212192 bytes  File Size  =     256838 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  28.06     *
+*............................................................................*
+*Br  125 :BunchStructure.isUnpairedB1 : BunchStructure.isUnpairedB1/I        *
+*Entries :  1795787 : Total  Size=    7212670 bytes  File Size  =     514477 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  14.01     *
+*............................................................................*
+*Br  126 :BunchStructure.isUnpairedB2 : BunchStructure.isUnpairedB2/I        *
+*Entries :  1795787 : Total  Size=    7212670 bytes  File Size  =     532910 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  13.52     *
+*............................................................................*
+*Br  127 :BunchStructure.isUnpairedIsolated :                                *
+*         | BunchStructure.isUnpairedIsolated/I                              *
+*Entries :  1795787 : Total  Size=    7214104 bytes  File Size  =     258754 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  27.86     *
+*............................................................................*
+*Br  128 :BunchStructure.isPaired : BunchStructure.isPaired/I                *
+*Entries :  1795787 : Total  Size=    7211714 bytes  File Size  =     182191 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  39.56     *
+*............................................................................*
+*Br  129 :BunchStructure.isEmpty : BunchStructure.isEmpty/I                  *
+*Entries :  1795787 : Total  Size=    7211475 bytes  File Size  =     188669 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression=  38.20     *
+*............................................................................*
+*Br  130 :BunchStructure.stableBeams : BunchStructure.stableBeams/I          *
+*Entries :  1795787 : Total  Size=    7212431 bytes  File Size  =      39376 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 183.04     *
+*............................................................................*
+*Br  131 :BunchStructure.numBunchesColliding :                               *
+*         | BunchStructure.numBunchesColliding/I                             *
+*Entries :  1795787 : Total  Size=    7214343 bytes  File Size  =      41567 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 173.44     *
+*............................................................................*
+*Br  132 :BunchStructure.numBunchesUnpairedB1 :                              *
+*         | BunchStructure.numBunchesUnpairedB1/I                            *
+*Entries :  1795787 : Total  Size=    7214582 bytes  File Size  =      41782 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 172.55     *
+*............................................................................*
+*Br  133 :BunchStructure.numBunchesUnpairedB2 :                              *
+*         | BunchStructure.numBunchesUnpairedB2/I                            *
+*Entries :  1795787 : Total  Size=    7214582 bytes  File Size  =      41762 *
+*Baskets :      235 : Basket Size=      32000 bytes  Compression= 172.63     *
+*............................................................................*

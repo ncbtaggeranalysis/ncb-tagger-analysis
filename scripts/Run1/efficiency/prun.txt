@@ -1,0 +1,434 @@
+usage: prun [options]
+
+  HowTo is available at https://twiki.cern.ch/twiki/bin/view/PanDA/PandaRun
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             Displays version
+  --inDS INDS           Name of an input dataset or dataset container
+  --inDsTxt INDSTXT     A text file which contains the list of datasets to run
+                        over. Newlines are replaced by commas and the result
+                        is set to --inDS. Lines starting with # are ignored
+  --inOutDsJson INOUTDSJSON
+                        A json file to specify input and output datasets for
+                        bulk submission. It contains a json dump of [{'inDS':
+                        a comma-concatenated input dataset names, 'outDS':
+                        output dataset name}, ...]
+  --goodRunListXML GOODRUNLISTXML
+                        Good Run List XML which will be converted to datasets
+                        by AMI
+  --goodRunListDataType GOODRUNDATATYPE
+                        specify data type when converting Good Run List XML to
+                        datasets, e.g, AOD (default)
+  --goodRunListProdStep GOODRUNPRODSTEP
+                        specify production step when converting Good Run List
+                        to datasets, e.g, merge (default)
+  --goodRunListDS GOODRUNLISTDS
+                        A comma-separated list of pattern strings. Datasets
+                        which are converted from Good Run List XML will be
+                        used when they match with one of the pattern strings.
+                        Either \ or "" is required when a wild-card is used.
+                        If this option is omitted all datasets will be used
+  --eventPickEvtList EVENTPICKEVTLIST
+                        a file name which contains a list of runs/events for
+                        event picking
+  --eventPickDataType EVENTPICKDATATYPE
+                        type of data for event picking. one of AOD,ESD,RAW
+  --ei_api EI_API       flag to signalise mc in event picking
+  --eventPickStreamName EVENTPICKSTREAMNAME
+                        stream name for event picking. e.g.,
+                        physics_CosmicCaloEM
+  --eventPickDS EVENTPICKDS
+                        A comma-separated list of pattern strings. Datasets
+                        which are converted from the run/event list will be
+                        used when they match with one of the pattern strings.
+                        Either \ or "" is required when a wild-card is used.
+                        e.g., data\*
+  --eventPickStagedDS EVENTPICKSTAGEDDS
+                        --eventPick options create a temporary dataset to
+                        stage-in interesting files when those files are
+                        available only on TAPE, and then a stage-in request is
+                        automatically sent to DaTRI. Once DaTRI transfers the
+                        dataset to DISK you can use the dataset as an input
+                        using this option
+  --eventPickAmiTag EVENTPICKAMITAG
+                        AMI tag used to match TAG collections names. This
+                        option is required when you are interested in older
+                        data than the latest one. Either \ or "" is required
+                        when a wild-card is used. e.g., f2\*
+  --eventPickNumSites EVENTPICKNUMSITES
+                        The event picking service makes a temprary dataset
+                        container to stage files to DISK. The consistuent
+                        datasets are distibued to N sites (N=1 by default)
+  --eventPickSkipDaTRI  Skip sending a staging request to DaTRI for event
+                        picking
+  --eventPickWithGUID   Using GUIDs together with run and event numbers in
+                        eventPickEvtList to skip event lookup
+  --express             Send the job using express quota to have higher
+                        priority. The number of express subjobs in the queue
+                        and the total execution time used by express subjobs
+                        are limited (a few subjobs and several hours per day,
+                        respectively). This option is intended to be used for
+                        quick tests before large submission. Note that
+                        buildXYZ is not included in quota calculation. If this
+                        option is used when quota has already exceeded, the
+                        panda server will ignore the option so that subjobs
+                        have normal priorities. Also, if you submit 1 buildXYZ
+                        and N runXYZ subjobs when you only have quota of M (M
+                        < N), only the first M runXYZ subjobs will have higher
+                        priorities
+  --debugMode           Send the job with the debug mode on. If this option is
+                        specified the subjob will send stdout to the panda
+                        monitor every 5 min. The number of debug subjobs per
+                        user is limited. When this option is used and the
+                        quota has already exceeded, the panda server supresses
+                        the option so that subjobs will run without the debug
+                        mode. If you submit multiple subjobs in a single job,
+                        only the first subjob will set the debug mode on. Note
+                        that you can turn the debug mode on/off by using pbook
+                        after jobs are submitted
+  --useContElementBoundary
+                        Split job in such a way that sub jobs do not mix files
+                        of different datasets in the input container. See
+                        --useNthFieldForLFN too
+  --addNthFieldOfInDSToLFN ADDNTHFIELDOFINDSTOLFN
+                        A middle name is added to LFNs of output files when
+                        they are produced from one dataset in the input
+                        container or input dataset list. The middle name is
+                        extracted from the dataset name. E.g., if
+                        --addNthFieldOfInDSToLFN=2 and the dataset name is
+                        data10_7TeV.00160387.physics_Muon..., 00160387 is
+                        extracted and LFN is something like
+                        user.hoge.TASKID.00160387.blah. Concatenate multiple
+                        field numbers with commas if necessary, e.g.,
+                        --addNthFieldOfInDSToLFN=2,6.
+  --addNthFieldOfInFileToLFN ADDNTHFIELDOFINFILETOLFN
+                        A middle name is added to LFNs of output files
+                        similarly as --addNthFieldOfInDSToLFN, but strings are
+                        extracted from input file names
+  --buildInLastChunk    Produce lib.tgz in the last chunk when jobs are split
+                        to multiple chunks due to the limit on the number of
+                        files in each chunk or due to
+                        --useContElementBoundary/--loadXML
+  --followLinks         Resolve symlinks to directories when building the
+                        input tarball. This option requires python2.6 or
+                        higher
+  --outDS OUTDS         Name of an output dataset. OUTDS will contain all
+                        output files
+  --destSE DESTSE       Destination strorage element
+  --libDS LIBDS         Name of a library dataset
+  --removedDS REMOVEDDS
+                        don't use datasets in the input dataset container
+  --useHomeDir          execute prun just under the HOME dir
+  --noBuild             Skip buildGen
+  --bulkSubmission      Bulk submit tasks. When this option is used,
+                        --inOutDsJson is required while --inDS and --outDS are
+                        ignored. It is possible to use %DATASET_IN and
+                        %DATASET_OUT in --exec which are replaced with actual
+                        dataset names when tasks are submitted, and
+                        %BULKSEQNUMBER which is replaced with a sequential
+                        number of tasks in the bulk submission
+  --noCompile           Just upload a tarball in the build step to avoid the
+                        tighter size limit imposed by --noBuild. The tarball
+                        contains binaries compiled on your local computer, so
+                        that compilation is skipped in the build step on
+                        remote WN
+  --individualOutDS     Create individual output dataset for each data-type.
+                        By default, all output files are added to one output
+                        dataset
+  --transferredDS TRANSFERREDDS
+                        Specify a comma-separated list of patterns so that
+                        only datasets which match the given patterns are
+                        transferred when --destSE is set. Either \ or "" is
+                        required when a wildcard is used. If omitted, all
+                        datasets are transferred
+  --secondaryDSs SECONDARYDSS
+                        List of secondary datasets when the job requires
+                        multiple inputs. See PandaRun wiki page for detail
+  --reusableSecondary REUSABLESECONDARY
+                        A comma-separated list of secondary streams which
+                        reuse files when all files are used
+  --site SITE           Site name where jobs are sent. If omitted, jobs are
+                        automatically sent to sites where input is available.
+                        A comma-separated list of sites can be specified (e.g.
+                        siteA,siteB,siteC), so that best sites are chosen from
+                        the given site list. If AUTO is appended at the end of
+                        the list (e.g. siteA,siteB,siteC,AUTO), jobs are sent
+                        to any sites if input is not found in the previous
+                        sites
+  --cloud CLOUD         Cloud where jobs are submitted. default is set
+                        according to your VOMS country group
+  --match MATCH         Use only files matching with given pattern
+  --antiMatch ANTIMATCH
+                        Skip files matching with given pattern
+  --notSkipLog          Don't skip log files in input datasets (obsolete. use
+                        --useLogAsInput instead)
+  --skipScan            Skip LFC lookup at job submission
+  --memory MEMORY       Required memory size in MB. e.g., for 1GB --memory
+                        1024
+  --nCore NCORE         The number of CPU cores. Note that the system
+                        distinguishes only nCore=1 and nCore>1. This means
+                        that even if you set nCore=2 jobs can go to sites with
+                        nCore=8 and your application must use the 8 cores
+                        there. The number of available cores is defined in an
+                        environment variable, $ATHENA_PROC_NUMBER, on WNs.
+                        Your application must check the env variable when
+                        starting up to dynamically change the number of cores
+  --maxCpuCount MAXCPUCOUNT
+                        Required CPU count in seconds. Mainly to extend time
+                        limit for looping job detection
+  --safetySize SAFETYSIZE
+                        Specify the expected size of input sandbox in MB. 500
+                        by default
+  --useShortLivedReplicas
+                        Use replicas even if they have very sort lifetime
+  --useDirectIOSites    Use only sites which use directIO to read input files
+  --official            Produce official dataset
+  --unlimitNumOutputs   Remove the limit on the number of outputs. Note that
+                        having too many outputs per job causes a severe load
+                        on the system. You may be banned if you carelessly use
+                        this option
+  --descriptionInLFN DESCRIPTIONINLFN
+                        LFN is user.nickname.jobsetID.something (e.g.
+                        user.harumaki.12345.AOD._00001.pool) by default. This
+                        option allows users to put a description string into
+                        LFN. i.e.,
+                        user.nickname.jobsetID.description.something
+  --useRootCore         Use RootCore. See PandaRun wiki page for detail
+  --useMana             Use Mana. See PandaRun wiki page for detail
+  --manaVer MANAVER     Specify a mana version if you want to use an older
+                        version. If omitted, the latest version is used. e.g.,
+                        --manaVer=20130301
+  --useAthenaPackages   Use Athena packages. See PandaRun wiki page for detail
+  --gluePackages GLUEPACKAGES
+                        list of glue packages which pathena cannot fine due to
+                        empty i686-slc4-gcc34-opt. e.g.,
+                        External/AtlasHepMC,External/Lhapdf
+  --nFiles NFILES       Use a limited number of files in the input dataset
+  --nSkipFiles NSKIPFILES
+                        Skip N files in the input dataset
+  --nFilesPerJob NFILESPERJOB
+                        Number of files on which each sub-job runs (default
+                        50). Note that this is the number of files per sub-job
+                        in the primary dataset even if --secondaryDSs is used
+  --nJobs NJOBS         Maximum number of sub-jobs. If the number of input
+                        files (N_in) is less than nJobs*nFilesPerJob, only
+                        N_in/nFilesPerJob sub-jobs will be instantiated
+  --nEvents NEVENTS     The total number of events to be processed. This
+                        option is considered only when either --inDS or
+                        --pfnList is not used
+  --nEventsPerJob NEVENTSPERJOB
+                        Number of events per subjob. This is used mainly for
+                        job splitting. If you set nEventsPerFile, the total
+                        number of subjobs is
+                        nEventsPerFile*nFiles/nEventsPerJob. Otherwise, it
+                        gets from rucio the number of events in each input
+                        file and subjobs are created accordingly. Note that
+                        you need to explicitly specify in --exec some
+                        parameters like %MAXEVENTS, %SKIPEVENTS and
+                        %FIRSTEVENT and your application needs to process only
+                        an event chunk accordingly, to avoid subjobs
+                        processing the same events. All parameters descibed in
+                        https://twiki.cern.ch/twiki/bin/view/PanDA/PandaAthena
+                        #example_8_How_to_run_production are available
+  --nEventsPerFile NEVENTSPERFILE
+                        Number of events per file
+  --nEventsPerChunk NEVENTSPERCHUNK
+                        Set granuarity to split events. The number of events
+                        per job is multiples of nEventsPerChunk. This option
+                        is considered only when --nEvents is used but --nJobs
+                        is not used. If this option is not set, nEvents/20 is
+                        used as nEventsPerChunk
+  --nGBPerJob NGBPERJOB
+                        Instantiate one sub job per NGBPERJOB GB of input
+                        files. --nGBPerJob=MAX sets the size to the default
+                        maximum value
+  --maxFileSize MAXFILESIZE
+                        Maximum size of files to be sent to WNs (default
+                        1024*1024B)
+  --athenaTag ATHENATAG
+                        Tags to setup Athena on remote WNs, e.g.,
+                        --athenaTag=AtlasProduction,14.2.24.3
+  --rootVer ROOTVER     Specify a ROOT version which is not included in
+                        Athena. This option can not be used together with
+                        --noBuild, e.g., --rootVer=5.28/00
+  --workDir WORKDIR     All files under WORKDIR will be transfered to WNs
+                        (default=./)
+  --extFile EXTFILE     root or large files under WORKDIR are not sent to WNs
+                        by default. If you want to send some skipped files,
+                        specify their names, e.g., data.root,data.tgz
+  --excludeFile EXCLUDEFILE
+                        specify a comma-separated string to exclude files
+                        and/or directories when gathering files in local
+                        working area. Either \ or "" is required when a
+                        wildcard is used. e.g., doc,\*.C
+  --inputFileList INPUTFILELISTNAME
+                        name of file which contains a list of files to be run
+                        in the input dataset
+  --crossSite CROSSSITE
+                        submit jobs to N sites at most when datasets in
+                        container split over many sites (N=50 by default)
+  --outputs OUTPUTS     Names of output files. Comma separated. e.g.,
+                        --outputs out1.dat,out2.txt. You can specify a suffix
+                        for each output container like
+                        <datasetNameSuffix>:<outputFileName>. e.g., --outputs
+                        AAA:out1.dat,BBB:out2.txt. In this case output
+                        container names are outDS_AAA/ and outDS_BBB/ instead
+                        of outDS_out1.dat/ and outDS_out2.txt/
+  --allowNoOutput ALLOWNOOUTPUT
+                        A comma-separated list of regexp patterns. Output
+                        files are allowed not to be produced if their
+                        filenames match with one of regexp patterns. Jobs go
+                        to finished even if they are not produced on WN
+  --excludedSite EXCLUDEDSITE
+                        list of sites which are not used for site section,
+                        e.g., ANALY_ABC,ANALY_XYZ
+  --useLogAsInput       log.tgz files in inDS are ignored by default. This
+                        option allows log files to be used as input
+  --noSubmit            Don't submit jobs
+  --prodSourceLabel PRODSOURCELABEL
+                        set prodSourceLabel
+  --processingType PROCESSINGTYPE
+                        set processingType
+  --seriesLabel SERIESLABEL
+                        set seriesLabel
+  --workingGroup WORKINGGROUP
+                        set workingGroup
+  --tmpDir TMPDIR       Temporary directory where an archive file is created
+  --voms VOMSROLES      generate proxy with paticular roles. e.g., atlas:/atla
+                        s/ca/Role=production,atlas:/atlas/fr/Role=pilot
+  --noEmail             Suppress email notification
+  --update              Update panda-client to the latest version
+  --spaceToken SPACETOKEN
+                        spacetoken for outputs. e.g., ATLASLOCALGROUPDISK
+  --respectSplitRule    force scout jobs to follow split rules like nGBPerJob
+  --nGBPerMergeJob NGBPERMERGEJOB
+                        Instantiate one merge job per NGBPERMERGEJOB GB of
+                        pre-merged files
+  --devSrv              Please don't use this option. Only for developers to
+                        use the dev panda server
+  --intrSrv             Please don't use this option. Only for developers to
+                        use the intr panda server
+  --outTarBall OUTTARBALL
+                        Save a gzipped tarball of local files which is the
+                        input to buildXYZ
+  --inTarBall INTARBALL
+                        Use a gzipped tarball of local files as input to
+                        buildXYZ. Generall the tarball is created by using
+                        --outTarBall
+  --exec JOBPARAMS      execution string. e.g., --exec "./myscript arg1 arg2"
+  --bexec BEXEC         execution string for build stage. e.g., --bexec "make"
+  --disableAutoRetry    disable automatic job retry on the server side
+  --myproxy MYPROXY     Name of the myproxy server
+  --maxNFilesPerJob MAXNFILESPERJOB
+                        The maximum number of files per job is 200 by default
+                        since too many input files result in a too long
+                        command-line argument on WN which crashes the job.
+                        This option relax the limit. In many cases it is
+                        better to use this option together with
+                        --writeInputToTxt
+  --writeInputToTxt WRITEINPUTTOTXT
+                        Write the input file list to a file so that your
+                        application gets the list from the file instead of
+                        stdin. The argument is a comma separated list of
+                        StreamName:FileName. e.g.,
+                        IN:input1.txt,IN2:input2.txt
+  --dbRelease DBRELEASE
+                        DBRelease or CDRelease (DatasetName:FileName). e.g., d
+                        do.000001.Atlas.Ideal.DBRelease.v050101:DBRelease-5.1.
+                        1.tar.gz. If --dbRelease=LATEST, the latest DBRelease
+                        is used. Most likely the --useAthenaPackages or
+                        --athenaTag option is required to setup Athena runtime
+                        on WN
+  --dbRunNumber DBRUNNUMBER
+                        RunNumber for DBRelease or CDRelease. If this option
+                        is used some redundant files are removed to save disk
+                        usage when unpacking DBRelease tarball. e.g., 0091890
+  --notExpandDBR        By default, DBRelease.tar.gz is expanded on WN and
+                        gets deleted after changing environment variables
+                        accordingly. If you need tar.gz, use this option
+  --mergeOutput         merge output files
+  --mergeScript MERGESCRIPT
+                        Specify user-defied script execution string for output
+                        merging
+  --provenanceID PROVENANCEID
+                        provenanceID
+  --useSiteGroup USESITEGROUP
+                        Use only site groups which have group numbers not
+                        higher than --siteGroup. Group 0: T1 or undefined,
+                        1,2,3,4: alpha,bravo,charlie,delta which are defined
+                        based on site reliability
+  -v                    Verbose
+  --long                Send job to a long queue
+  --pfnList PFNLIST     Name of file which contains a list of input PFNs.
+                        Those files can be un-registered in DDM
+  --outputPath OUTPUTPATH
+                        Physical path of output directory relative to a root
+                        path
+  --useOldStyleOutput   use output dataset and long LFN instead of output
+                        dataset container and short LFN
+  --disableRebrokerage  disable auto-rebrokerage
+  --useChirpServer USECHIRPSERVER
+                        The CHIRP server where output files are written to.
+                        e.g., --useChirpServer voatlas92.cern.ch
+  --useGOForOutput GOENDPOINT
+                        The Globus Online server where output files are
+                        written to. e.g., --useGOForOutput voatlas92.cern.ch
+  --enableJEM           enable JEM
+  --configJEM CONFIGJEM
+                        configration parameters for JEM
+  --cmtConfig CMTCONFIG
+                        CMTCONFIG=i686-slc5-gcc43-opt is used on remote
+                        worker-node by default even if you use another
+                        CMTCONFIG locally. This option allows you to use
+                        another CMTCONFIG remotely. e.g., --cmtConfig
+                        x86_64-slc5-gcc43-opt. If you use --libDS together
+                        with this option, make sure that the libDS was
+                        compiled with the same CMTCONFIG, in order to avoid
+                        failures due to inconsistency in binary files
+  --requireLFC          Require that LFC lookup is 100{'const': True, 'help':
+                        'Require that LFC lookup is 100% successful (a single
+                        miss will fail the submission)', 'option_strings': ['
+                        --requireLFC'], 'dest': 'requireLFC', 'required':
+                        False, 'nargs': 0, 'choices': None, 'default': False,
+                        'prog': 'prun', 'container': <argparse._ArgumentGroup
+                        object at 0x7f1eda563e50>, 'type': None, 'metavar':
+                        None}uccessful (a single miss will fail the
+                        submission)
+  --loadXML LOADXML     Expert mode: load complete submission configuration
+                        from an XML file
+  --loadJson LOADJSON   Read command-line parameters from a json file which
+                        contains a dict of {parameter: value}
+  --dumpJson DUMPJSON   Dump all command-line parameters and submission result
+                        such as returnCode, returnOut, jediTaskID, and
+                        bulkSeqNumber if --bulkSubmission is used, to a json
+                        file
+  --forceStaged         Force files from primary DS to be staged to local
+                        disk, even if direct-access is possible
+  --forceStagedSecondary
+                        Force files from secondary DSs to be staged to local
+                        disk, even if direct-access is possible
+  --queueData QUEUEDATA
+                        Please don't use this option. Only for developers
+  --useNewCode          When task are resubmitted with the same outDS, the
+                        original souce code is used to re-run on
+                        failed/unprocessed files. This option uploads new
+                        source code so that jobs will run with new binaries
+  --allowTaskDuplication
+                        As a general rule each task has a unique outDS and
+                        history of file usage is recorded per task. This
+                        option allows multiple tasks to contribute to the same
+                        outDS. Typically useful to submit a new task with the
+                        outDS which was used by another broken task. Use this
+                        option very carefully at your own risk, since file
+                        duplication happens when the second task runs on the
+                        same input which the first task successfully processed
+  --useRucio            Use Rucio as DDM backend
+  --skipFilesUsedBy SKIPFILESUSEDBY
+                        A comma-separated list of TaskIDs. Files used by those
+                        tasks are skipped when running a new task
+  --maxAttempt MAXATTEMPT
+                        Maximum number of reattempts for each job (3 by
+                        default and not larger than 50)
+  --containerImage CONTAINERIMAGE
+                        Name of a container image

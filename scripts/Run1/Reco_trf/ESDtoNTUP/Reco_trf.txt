@@ -1,0 +1,49 @@
+###############################
+Original job transform command:
+/cvmfs/atlas.cern.ch/repo/sw/software/x86_64-slc5-gcc43-opt/17.0.2/AtlasReconstruction/17.0.2/InstallArea/share/bin/Reco_trf.py -h 
+###############################
+INFO trf configuration written in inputDictionary.pickle
+
+Thousands of parameter combinations can be generated dynamically by this transform.
+See: https://twiki.cern.ch/twiki/bin/view/Atlas/RecoTrf
+
+This design has one exception: ProdSys (Tier1), which can only use keys:
+['inputBSFile', 'inputRDOFile', 'inputEVNTFile', 'inputESDFile', 'inputAODFile', 'maxEvents', 'skipEvents', 'RunNumber', 'autoConfiguration', 'preInclude', 'postInclude', 'preExec', 'postExec', 'topOptions', 'DBRelease', 'conditionsTag', 'geometryVersion', 'beamType', 'AMITag', 'outputBSFile', 'outputESDFile', 'outputCBNTFile', 'outputNTUP_TRKVALIDFile', 'outputNTUP_MUONCALIBFile', 'outputTAG_COMMFile', 'outputTAGFile', 'outputAODFile', 'triggerConfig', 'outputHISTFile', 'outputNTUP_MUFASTFile', 'outputNTUP_TRIGFile', 'outputHIST_TRIGEXPERTFile', 'outputDESDM_EGAMMAFile', 'outputDESD_PHOJETFile', 'outputDESD_SGLELFile', 'outputDESDM_MUONFile', 'outputDESD_SGLMUFile', 'outputDESDM_CALJETFile', 'outputDESD_CALJETFile', 'outputDESDM_TRACKFile', 'outputDESD_METFile', 'outputDESDM_METFile', 'outputDESD_MBIASFile', 'outputDESD_PIXELCOMMFile', 'outputDESD_IDCOMMFile', 'outputDESD_CALOCOMMFile', 'outputDESD_TILECOMMFile', 'outputDESD_MUONCOMMFile', 'outputDESD_HIRAREFile', 'outputDESDM_HIRAREFile', 'outputDESDM_RPVLLFile', 'outputDESDM_RPVLLCCFile', 'outputD2ESD_JPSIUPSMMFile', 'outputD2ESD_ZMMFile', 'outputD2ESD_WENUFile', 'outputD2ESD_WMUNUFile', 'outputDAODM_SGLEMFile', 'outputDAODM_SGLMUFile', 'outputDAODM_SGLPHFile', 'outputDAODM_SGLTAUFile', 'outputDAOD_2EMFile', 'outputDAOD_2PHFile', 'outputDAOD_2MUFile', 'outputDAOD_EMMUFile', 'outputDAOD_EMTAUFile', 'outputDAOD_MUTAUFile', 'outputDAOD_EMMETFile', 'outputDAOD_MUMETFile', 'outputDAOD_JETMETFile', 'outputDAOD_EMJETFile', 'outputDAOD_MUJETFile', 'outputDAOD_TAUJETFile', 'outputD2AODM_TOPELFile', 'outputD2AODM_TOPMUFile', 'outputD2AODM_TOPQCDELFile', 'outputD2AODM_TOPQCDMUFile', 'outputDAOD_ONIAMUMUFile', 'outputD2AODM_TOPQCDJ1File', 'outputD2AODM_TOPQCDJ2File', 'outputDESD_COLLCANDFile', 'outputDAOD_EGLOOSEFile', 'outputDAOD_PHLOOSEFile', 'outputD2ESD_DIPHOFile', 'outputDESDM_DIPHOFile', 'outputD2AOD_DIPHOFile', 'outputDAOD_ELLOOSE18File', 'outputD2AOD_ELLOOSE18File', 'outputDAOD_MUFile', 'outputDRAW_ZEEFile', 'outputDRAW_WENUFile', 'outputDRAW_ZMUMUFile', 'outputDRAW_WMUNUFile', 'outputNTUP_BTAGFile', 'outputNTUP_BTAGD3PDFile', 'outputNTUP_EGAMMAFile', 'outputNTUP_MINBIASFile', 'outputNTUP_PROMPTPHOTFile', 'outputNTUP_JETMETFile', 'outputDESDM_BEAMSPOTFile', 'outputNTUP_SMWZFile', 'outputNTUP_SMWZSOFTFile', 'outputNTUP_TRTFile', 'outputNTUP_HECNOISEFile', 'outputNTUP_SUSYFile', 'outputNTUP_SMEWFile', 'outputDAOD_SUSYJETSFile', 'outputDAOD_SUSYMUONSFile', 'outputDAOD_SUSYEGAMMAFile', 'outputNTUP_TOPFile', 'outputNTUP_HIFile', 'outputD2ESDM_TRKJETFile', '--ignoreerrors', '--athenaopts', '--omitvalidation', 'tmpESD', 'tmpAOD', 'extraParameter', 'outputDAOD_RNDMFile', 'outputNTUP_TOPVALFile', 'outputD2AODM_TOPJETFile', 'outputNTUP_SGTOPFile', 'outputNTUP_MCPFile', 'outputDAOD_2LHSG2File', 'outputDAOD_HSG2File', 'outputNTUP_SCTFile', 'outputNTUP_HIGHMULTFile', 'outputNTUP_1LHSG2File', 'outputNTUP_2LHSG2File', 'outputNTUP_HSG2File', 'outputNTUP_ENHBIASFile', 'outputNTUP_L1CALOFile', 'outputNTUP_L1CALOPROBFile', 'outputNTUP_FASTMONFile', 'outputNTUP_PHOTONFile', 'outputNTUP_BKGDFile', 'outputNTUP_SMWENUFile', 'outputNTUP_SMZEEFile', 'outputNTUP_SMDYEEFile', 'outputNTUP_SMBKGEFile', 'outputNTUP_SMWMUNUFile', 'outputNTUP_SMZMUMUFile', 'outputNTUP_SMDYMUMUFile', 'outputNTUP_SMBKGMUFile', 'outputNTUP_SMDILEPFile', 'outputNTUP_TRIGMUFile', 'outputNTUP_TRIGBJETFile', 'outputHIST_PHYSVALMONFile', 'outputNTUP_TRUTHFile', 'outputNTUP_LARNOISEFile', 'inputTAGFile', 'outputNTUP_SMQCDFile']
+
+To bypass an argument in positional mode, give value: 'NONE'.
+Please use CmdToPositional.py to translate a key=val command into a positional one.
+
+
+Appending '--drop-and-reload' to --athenaopts
+[?1034hSetting runOpts.help to True
+JobTransform Reco_trf version unknown
+Any reconstruction step: RAW->RAW (run HLT) and/or RAW->ESD and/or ESD->AOD and/or ESD->DPD and/or AOD->DPD and/or ESD->TAG.
+The job is self-configuring from the input file name and from its input arguments in general.
+It requires a dictionary in its constructor and needs to be executed with exeArgDict().
+Once the configuration is decided, the whole job stops if any intermediate job fails.
+usage: Reco_trf.py [options]
+       Arguments should be given as name=value.
+       Option -h,--help: get detailed help
+Options:
+   -h, --help                           Print detailed help
+   - <value>, --extrametadatadict=<value>  Full path to file containing extraMetadataDict, a dictionary of compiled patterns and/or strings for explicit inclusion
+   - <value>, --usesqlite=<value>       Force the use of local/symlinked sqlite files rather than ORACLE.. Possible values: [True, False]
+   - <value>, --ignoreerrors=<value>    Mask all errors. Transform returns successful if athena.py is successful. Contributes to NEEDCHECK flag. This option no longer accepts an additional file to supplement existing error ignore filters. For that purpose, use =--extraignorefilter=XXX= option.. Possible values: [True, False, 'ALL']
+   -t, --test                           Run in test mode. Tests/checks omitted using the --omitvalidation=XXX option applied everywhere rather than being limited to validation routines. GUIDs are not extracted either.
+   -, --tcmalloc                        **DEPRECATED** Use tcmalloc for memory allocation instead of stdcmalloc
+   - <value>, --useathenaapp=<value>    Force the use of athena-app.py instead of athena.py. Possible values: [True, False]
+   - <value>, --omitvalidation=<value>  Omit certain validation routines. Use "ALL" to omit all validation routines, use "NONE" to remove all validation ommissions.. Possible values: ['testIfCorrupt', 'ALL', 'testMatchEvents', 'testCountEvents', 'extraValidation', 'testIfEmpty', 'testIfNoEvents', 'testEventMinMax', 'testIfExists', 'NONE']
+   -, --ignoreall                       Force transformations, composite ones in particular, to proceed regardless of any errors encountered.
+   - <value>, --usenewmeta=<value>      Use new metadata format. Experimental. Possible values: [True, False]
+   - <value>, --mcinput=<value>         Monte Carlo input file used. Omit if real data is used. Enabling this option also implies setting --usesqlite=True. Possible values: [True, False]
+   -m <value>, --uploadtoami=<value>    Upload performance data to AMI. Should be used only by T0 or T1. Value is probability of job to really report. (For throtling reporting of MC jobs).
+   -, --ignoreunknown                   **DEPRECATED** Mask out any unknown errors found (i.e. ignore TRF_UNKNOWN errors)
+   - <value>, --rss=<value>             Set maximum resident memory value (in megabytes).
+   -, --leakcheckexecute                Perform basic memory leak checking. This disables the use of tcmalloc
+   -l <value>, --loglevel=<value>       **DEPRECATED**. Possible values: ['INFO', 'ALL', 'VERBOSE', 'WARNING', 'ERROR', 'DEBUG', 'FATAL']
+   - <value>, --vmem=<value>            Set maximum virtual memory (in megabytes).
+   - <value>, --argdict=<value>         Run arguments given in a python dictionary in a pickle file
+   -c <value>, --command=<value>        Python code to be pre-executed before any scripts
+   -a <value>, --athenaopts=<value>     Options to be passed on to athena
+   - <value>, --extraignorefilters=<value>  Full path to file containing additional error ignore filters in the format set out in atlas_error_ignore.db
+Arguments:
